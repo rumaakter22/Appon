@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+}
+/*==================================
+            navbar part start
+=======================================*/
+nav{
+    background: #000000;
+    margin-top:50px;
+}
+nav .logo{
+    width: 20%;
+}
+nav .nav-item{
+    width: 70%;
+}
+nav .btn{
+    width: 10%;
+    text-align: right;
+    margin-top: 16px;
+}
+nav .btn a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background: #744fa0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+nav .btn a:hover{
+    background: #744fa0; 
+}
+
+nav .nav-item ul{
+    text-align: right;
+    margin-top: 25px;
+}
+
+nav .nav-item ul li{ 
+   display: inline-block;
+   margin-left: 40px;
+   position: relative;
+}
+nav .nav-item ul li:after{
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    width: 0%;
+    height: 5px;
+    background: #744fa0;
+    content: "";
+    transition: .4s;
+}
+nav .nav-item ul li:hover:after{
+    width: 30%;
+}
+nav .nav-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+}
+nav .nav-item ul li a:hover{
+    color:#744fa0;
+}
+
+
+/*==================================
+            navbar part end
+=======================================*/
+
+
+
+
+
+

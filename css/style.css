@@ -1,0 +1,725 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+
+/*==========================================
+                  nav part start
+=============================================*/
+nav{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    
+}
+nav .logo{
+    width: 20%;
+}
+nav .nav-item{
+    width: 70%;
+    
+}
+nav .nav-item ul{
+    text-align: right;
+    margin-top: 25px;
+}
+nav .nav-item ul li{
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    
+    
+}
+nav .nav-item ul li:after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background:  #744fa0;
+    content: "";
+    transition: .4s;
+}
+nav .nav-item ul li:hover:after{
+    width: 40%;
+}
+nav .nav-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+    
+}
+nav .nav-item ul li a:hover{
+    color: #744fa0;
+}
+nav .btn{
+    width: 10%;
+    text-align: right;
+    margin-top: 16px;
+
+}
+nav .btn a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background: #744fa0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/*==========================================
+                  nav part end
+=============================================*/
+
+
+
+/*==========================================
+                  banner part start
+=============================================*/
+
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5);
+    color: #fff;
+    text-align: right;
+    padding-top: 243px;
+    padding-bottom: 130px;
+}
+#banner-part .overlay h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#banner-part .overlay h1:first-letter{
+    color:#744fa0;
+}
+#banner-part .overlay h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+}
+#banner-part .overlay h2:after{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 200px;
+    height: 1px;
+    background: #fff;
+    content: "";
+}
+#banner-part .overlay p{
+font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 476px;
+    margin-left: auto;
+    margin-top: 60px;
+}
+#banner-part .overlay a{
+    display: inline-block;
+    color: #fff;
+    background:#744fa0;
+    text-align: right;
+    position: relative;
+    border-radius: 5px;
+    padding: 11px 22px 11px 60px;
+    margin-top: 60px;
+    margin-left: 12px;
+    transition: .4s;
+    
+}
+#banner-part .overlay .a btn{
+    color:#000;
+}
+#banner-part .overlay a i{
+    font-size: 33px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+#banner-part .overlay a span{
+    display: block;
+    
+}
+#banner-part .overlay a .on{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;  
+}
+#banner-part .overlay a .store{
+ font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+#banner-part .overlay .btn:hover{
+    background:#744fa0;
+    color:#000;
+}
+#banner-part .overlay .btn2:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+/*==========================================
+                 banner part end
+=============================================*/
+/*==========================================
+                 about part start
+=============================================*/
+#about-part{
+    width: 100%;
+}
+#about-part .title{
+    margin-top: 150px;
+    
+}
+#about-part .text{
+    width: 40%;
+    margin-left: 50px;
+    
+}
+#about-part .text .details{
+    margin-bottom: 172px;
+}
+#about-part .text .details p{
+   font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    width: 564px;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+#about-part .img{
+    width: 60%;
+    text-align: center;
+    margin: 104px 0;
+    
+    
+}
+
+
+
+/*==========================================
+                 about part end
+=============================================*/
+/*==========================================
+                 feature part start
+=============================================*/
+#feature-part{
+    background: #f1f1f1;
+    margin: 100px 0;
+}
+#feature-part .title{
+    padding-top: 60px;
+}
+
+#feature-part .button{
+    width: 33.33%;
+    margin-top: 20px;
+}
+#feature-part .button .item{
+    
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 60px;
+    transition: .4s;
+}
+
+#feature-part .button .item:after{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 270px;
+    height: 1px;
+    background: #000;
+    content: "";
+    transition: .4s;
+}
+
+#feature-part .button .item:last-child:after{
+    width: 0;
+}
+
+#feature-part .button .item:hover:after{
+    width: 370px;
+    color: #744fa0;
+}
+#feature-part .button .item:hover{
+    color: #744fa0;
+}
+#feature-part .button .item i{
+  font-size: 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#feature-part .button .item span{
+    display: block;
+}
+#feature-part .button .item .phone{
+   font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#feature-part .button .item .sequre{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+ 
+}
+
+#feature-part .img{
+    width: 33.33%;
+    text-align: center;
+    padding-top: 30px;
+}
+#feature-part .text{
+    width: 33.33%;
+    text-align: center;
+}
+#feature-part .text .title h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#feature-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 370px;
+}
+
+
+/*==========================================
+                 feature part end
+=============================================*/
+/*==========================================
+                 screenshot part start
+=============================================*/
+#screenshot-part{
+    text-align: center;
+   
+}
+
+#screenshot-part .img img{
+     padding: 60px 0; 
+}
+
+
+/*==========================================
+                 screenshot part end
+=============================================*/
+/*==========================================
+            video title-part start
+==========================================*/
+#videotitle-part .title img{
+    margin-top: 10px;
+}
+
+
+/*==========================================
+            video title-part start
+==========================================*/
+/*==========================================
+                 video part start
+=============================================*/
+#video-part{
+    background: url(../images/video.png) no-repeat center;
+    background-size: cover;
+    margin-top: 60px;
+}
+#video-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5);
+    text-align: center;
+    padding: 215px 0;
+}
+#video-part .overlay i{
+    color: #ffffff;
+    font-size: 80px;
+}
+
+
+/*==========================================
+                 video part end
+=============================================*/
+
+/*==========================================
+                pricing part start
+=============================================*/
+#pricing-part .title{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#pricing-part .main{
+    justify-content: space-between;
+}
+
+#pricing-part .item{
+    width: 23%;
+    margin-bottom: 60px;
+}
+#pricing-part .item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .4s;
+    
+}
+#pricing-part .item:hover h3{
+    background: #744fa0;
+}
+#pricing-part .item .round{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    text-align:center;
+    margin: 20px auto;
+}
+#pricing-part .item .round p{
+     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+#pricing-part .item .round .number{
+     font-family: 'Raleway', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+}
+#pricing-part .item .round .month{
+    font-size: 15px;
+}
+#pricing-part .item .round .one{
+    margin-top:15px;
+}
+#pricing-part .item ul{
+    text-align: center;
+    background: #f1f1f1;
+    padding: 30px 0;
+}
+#pricing-part .item ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+#pricing-part .item .btn{
+    text-align: center;
+    background: #f1f1f1;
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+#pricing-part .item .btn a{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px;
+    transform: translateY(50%);
+    background: #fff;
+    
+}
+#pricing-part .item:hover a{
+    background: #744fa0;
+}
+
+
+/*==========================================
+                pricing part end
+=============================================*/
+/*==========================================
+                team part start
+=============================================*/
+#team-part .title{
+    margin-bottom: 90px;
+}
+
+#team-part {
+    margin-top: 90px;
+    margin-bottom: 200px;
+    
+}
+#team-part .main{
+    justify-content: space-between;
+}
+#team-part .member{
+    width: 30%;
+    position: relative;
+    
+}
+#team-part .member .img{
+    width: 100%;
+    position: relative;
+     top: 0;
+    transition: .4s;
+}
+#team-part .member .img img{
+    width: 100%;
+    display: block;
+}
+#team-part .member .img .overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+#team-part .member .img .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 10px;
+    transition: .4s;
+    cursor: pointer;
+ 
+}
+#team-part .member .img .overlay i:hover{
+    background: #1da1f2;
+    color: #ffffff;
+}
+
+#team-part .member .text{
+    width: 100%;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: -1;
+    transition: .4s;
+    text-align: center;
+    border: 2px solid #cccccc;
+    border-top: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#team-part .member .text h2{
+   font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700; 
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+#team-part .member .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#team-part .member .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 249px;
+    margin-top: 10px;
+    margin-left: 58px;
+                
+}
+#team-part .member:hover .text{
+    top: 86%;
+}
+
+#team-part .member:hover .img .overlay{
+    opacity: 1;
+}
+
+#team-part .member:hover .img{
+    top: -50px;
+}
+
+/*==========================================
+                team part end
+=============================================*/
+
+
+/*==========================================
+                users part end
+=============================================*/
+#users-part .title{
+    margin-bottom: 60px;
+}
+#users-part{
+    text-align: center;
+}
+#users-part .img img{
+    margin-bottom: 80px;
+}
+
+/*==========================================
+               users part end
+=============================================*/
+/*==========================================
+               contact part start
+=============================================*/
+#contact-part{
+    margin-bottom: 200px;
+}
+#contact-part .main{
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#contact-part input{
+    width: 32%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #353535;
+    border-radius: 5px;
+}
+#contact-part input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#contact-part textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color:  #353535;
+    border-radius: 5px;
+    margin-top: 32px;
+    resize: none;
+}
+#contact-part textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#contact-part .btn{
+    text-align: center;
+}
+#contact-part .btn button{
+   margin-top: 30px;
+    background: #744fa0;
+    color: #ffffff;
+    padding:8px 25px;
+    box-sizing: border-box;
+    border: 0;
+    text-transform: uppercase;
+     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+
+/*==========================================
+               contact part end
+=============================================*/
+/*==========================================
+              footer part start
+=============================================*/
+#footer-part{
+    width: 100%;
+    background: #353535;
+    height:300px; 
+    
+    
+    
+}
+#footer-part .img{
+    text-align: center;
+   padding-top: 30px;
+}
+#footer-part .icon{
+    text-align: center;
+    margin-top: 30px;
+}
+#footer-part .icon i{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin-left: 10px;
+    transition: .4s;
+    cursor: pointer;
+} 
+#footer-part .icon i:hover{
+    background: #1da1f2;
+    color: #fff;
+}
+
+
+/*==========================================
+              footer part end
+=============================================*/
